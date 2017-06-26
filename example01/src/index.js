@@ -8,6 +8,8 @@ import App from './components/App';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
+import ContactParams from './components/contact/ContactParams';
+
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
@@ -17,6 +19,7 @@ ReactDOM.render(
       {/* make them children of `App` */}
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
+      <Route path="/:userName/:id" component={ContactParams} />
     </Route>
   </Router>
   , document.getElementById('root'));
