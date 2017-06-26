@@ -5,8 +5,8 @@ class ContactParams extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Welcome !</h1>
-        You are {this.props.params.userName}, your ID is {this.props.params.id}
+        <h1>Thank You {this.props.params.userName}!</h1>
+        Your message has been sent with ID #{this.props.params.id}.
       </div>
     );
   }
