@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { hashHistory } from 'react-router';
+import { browserHistory } from 'react-router';
 
 import '../App.css';
 
@@ -8,7 +8,7 @@ class About extends Component {
     event.preventDefault();
     //Make Redirect to /userName/id
     const path = `/${this.name.value}/${this.id.value}`;
-    hashHistory.push(path);
+    browserHistory.push(path);
   }
   render() {
     return (
