@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import { render } from 'react-dom';
+import 'babel-polyfill';
 // Import routing components
 import Routes from './Routes';
 import registerServiceWorker from './registerServiceWorker';
