@@ -9,7 +9,10 @@ class About extends Component {
   _goTo(event) {
     event.preventDefault();
     //Firing an action that Redux will handle
-    this.props.dispatch(itemActions.createItem({name: this.name.value}));
+    this.props.dispatch(itemActions.createItem({
+      name: this.name.value,
+      id: this.id.value
+    }));
     //Make Redirect to /userName/id
     //const path = `/${this.name.value}/${this.id.value}`;
     //browserHistory.push(path);
@@ -40,7 +43,7 @@ function mapStateToProps(state, ownProps) {
   //exposed on our component.
   alert(JSON.stringify(state));
   return {
-    allItems: state //Now we can access viw this.props.items within this component
+    allItems: state //Now we can access viw this.props.allItems within this component
   }
 }
 
