@@ -41,7 +41,6 @@ class About extends Component {
 function mapStateToProps(state, ownProps) {
   //The returned object contains the properties we would like to see
   //exposed on our component.
-  alert(JSON.stringify(state));
   return {
     allItems: state //Now we can access viw this.props.allItems within this component
   }

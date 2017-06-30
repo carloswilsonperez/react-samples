@@ -7,13 +7,19 @@ class Header extends Component {
     return (
       <div className="App-header">
           <h1>React Router Tutorial</h1>
-          <ul role="nav">
-            <li><Link to="/home" activeStyle={{ color: 'red' }}>Home</Link></li>
-            <li><Link to="/about" activeStyle={{ color: 'red' }}>About</Link></li>
-            <li><Link to="/contact" activeStyle={{ color: 'red' }}>Contact</Link></li>
+          <ul role="nav" className="nav nav-pills">
+            <li role="presentation">
+              <Link to="/home" activeStyle={{ color: 'red' }}>Home</Link>
+            </li>
+            <li role="presentation">
+              <Link to="/about" activeStyle={{ color: 'red' }}>About</Link>
+            </li>
+            <li role="presentation">
+              <Link to="/contact" activeStyle={{ color: 'red' }}>Contact</Link>
+            </li>
           </ul>
       </div>
-  );
+    );
   }
 }
 
