@@ -6,7 +6,7 @@ class Header extends Component {
   render () {
     return (
       <div className="App-header">
-          <h1>React Router Tutorial</h1>
+          <h1>Small React App</h1>
           <ul role="nav" className="nav nav-pills">
             <li role="presentation">
               <Link to="/home" activeStyle={{ color: 'red' }}>Home</Link>
