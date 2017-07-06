@@ -5,7 +5,7 @@
 
 # dependencies
 /example01/node_modules
-/example01/public
+/example02/node_modules
 
 # testing
 /coverage
