@@ -16,7 +16,7 @@ class Routes extends Component {
           <Route path="/home" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route path="/:userName/:id" component={ContactParams} />
+          <Route path="/contact/:userName/:id" component={ContactParams} />
         </Route>
       </Router>
     );

@@ -7,7 +7,7 @@ class About extends Component {
   _goTo(event) {
     event.preventDefault();
     //Make Redirect to /userName/id
-    const path = `/${this.name.value}/${this.id.value}`;
+    const path = `/contact/${this.name.value}/${this.id.value}`;
     browserHistory.push(path);
   }
   render() {
