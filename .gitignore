@@ -6,6 +6,8 @@
 # dependencies
 /example01/node_modules
 /example02/node_modules
+/example03/node_modules
+/mobx-react-boilerplate/node_modules
 
 # testing
 /coverage
