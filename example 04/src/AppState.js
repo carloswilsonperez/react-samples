@@ -1,4 +1,4 @@
-import { observable, computed, action } from 'mobx';
+import {observable, computed, action} from 'mobx';
 
 class AppState {
   @observable count = 0;
@@ -7,7 +7,7 @@ class AppState {
     this.count++;
   }
 
-  @action decrement () {
+  @action decrement() {
     this.count--;
   }
 
