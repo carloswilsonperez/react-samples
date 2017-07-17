@@ -5,18 +5,20 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Table of Contents
 
-- [Example01](#updating-to-new-releases)
-- [Example02](#sending-feedback)
-- [Example03](#folder-structure)
-- [Example04](#available-scripts)
+- [Example01](#Example 01)
+- [Example02](#Example 02)
+- [Example03](#Example 03)
+- [Example04](#Example 04)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
-- [Example05](#supported-language-features-and-polyfills)
+- [Example05](#Example 05)
 
 
-## Updating to New Releases
+## Example 01
+
+This is a React example using the React-Router module and Redux
 
 Create React App is divided into two packages:
 
@@ -37,7 +39,9 @@ We commit to keeping the breaking changes minimal so you can upgrade `react-scri
 
 We are always open to [your feedback](https://github.com/facebookincubator/create-react-app/issues).
 
-## Folder Structure
+## Example 02
+
+This is a simple React example using React-Router.
 
 After creation, your project should look like this:
 
@@ -1823,6 +1827,13 @@ moment.locale('fr');
 ```
 
 This will only work for locales that have been explicitly imported before.
+
+## Example 03
+
+## Example 04
+
+## Example 05
+
 
 ## Something Missing?
 
