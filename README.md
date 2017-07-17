@@ -19,7 +19,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Example 01
 
-This is a React example using the React-Router module and Redux
+This is a simple React example using React-Router.
 
 Create React App is divided into two packages:
 
@@ -36,13 +36,7 @@ In most cases bumping the `react-scripts` version in `package.json` and running 
 
 We commit to keeping the breaking changes minimal so you can upgrade `react-scripts` painlessly.
 
-## Sending Feedback
-
 We are always open to [your feedback](https://github.com/facebookincubator/create-react-app/issues).
-
-## Example 02
-
-This is a simple React example using React-Router.
 
 After creation, your project should look like this:
 
@@ -1828,6 +1822,10 @@ moment.locale('fr');
 ```
 
 This will only work for locales that have been explicitly imported before.
+
+This is a React example using the React-Router module and Redux.
+
+## Example 02
 
 ## Example 03
 
