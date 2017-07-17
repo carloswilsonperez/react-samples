@@ -5,10 +5,10 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Table of Contents
 
-- [Example01](#Example 01)
-- [Example02](#Example 02)
-- [Example03](#Example 03)
-- [Example04](#Example 04)
+- [Example 01](#example-01)
+- [Example 02](#Example 02)
+- [Example 03](#Example 03)
+- [Example 04](#Example 04)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
