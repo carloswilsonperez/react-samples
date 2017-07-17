@@ -8,6 +8,8 @@
 /example02/node_modules
 /example03/node_modules
 /mobx-react-boilerplate/node_modules
+/example 04
+/hello-world-react/node_modules
 
 # testing
 /coverage
@@ -25,3 +27,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+!/example02/src/components/contact/ContactParams.js
