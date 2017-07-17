@@ -6,14 +6,15 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ## Table of Contents
 
 - [Example 01](#example-01)
-- [Example 02](#Example 02)
-- [Example 03](#Example 03)
-- [Example 04](#Example 04)
+- [Example 02](#example-02)
+- [Example 03](#example-03)
+- [Example 04](#example-04)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
-- [Example05](#Example 05)
+- [Example 05](#example-05)
+- [Example 06](#example-06)
 
 
 ## Example 01
